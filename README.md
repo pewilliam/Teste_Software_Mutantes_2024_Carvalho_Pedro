@@ -2,6 +2,7 @@
 
 ## 1. Introdução
 Este documento descreve a implementação e os testes de mutantes no código da classe MutLoop, que inclui métodos que manipulam listas através de loops for e while. O objetivo é garantir que os testes sejam robustos o suficiente para detectar mutações (modificações maliciosas ou incorretas) no código, uma prática conhecida como "teste de mutação".
+
 ## 2. Classe MutLoop
 A classe MutLoop contém três métodos principais que operam sobre intervalos de números inteiros:
 •
