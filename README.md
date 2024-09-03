@@ -12,6 +12,8 @@ inlineFor(self, x): Cria uma lista contendo os números de 1 até x, gerados atr
 simpleWhile(self, x): Cria uma lista contendo os números de 0 até x-1 usando um loop while.
 ## 3. Mutantes Gerados
 Vários mutantes foram introduzidos no código da classe MutLoop para testar a eficácia dos testes unitários. Cada mutante representa uma modificação potencialmente errônea do código, e a meta é que os testes identifiquem essas mudanças.
+![image](https://github.com/user-attachments/assets/d3ecca6e-9f7f-4650-bbd1-2094a8d05318)
+
 Report antes de efetuar medidas para prevenir mutações.
 ### 3.1. Mutante 1
 Local: Método simpleFor - input_list = range(0, x) + input_list = range(1, x)
@@ -60,4 +62,6 @@ Teste 3: Verifica se simpleFor(2) retorna [0, 1], garantindo que todos os valore
 •
 Teste 10: Verifica se uma exceção TypeError é levantada se i for definido como None.
 ## 5. Conclusão
+![image](https://github.com/user-attachments/assets/b9cd74c0-1726-46e8-81f5-dcf1e395807a)
+
 Os testes de mutação são uma técnica eficaz para garantir que os testes unitários cubram adequadamente as possíveis falhas ou modificações indesejadas no código. Neste exercício, introduzimos mutantes nos métodos da classe MutLoop e verificamos a capacidade dos testes de identificá-los. A ativação das flags KILL_ZERO_FOR, KILL_ONE_FOR, KILL_INLINE, KILL_ZERO_WHILE, e KILL_ONE_WHILE foi utilizada para garantir que os mutantes fossem detectados e mortos, confirmando a robustez dos testes implementados.
